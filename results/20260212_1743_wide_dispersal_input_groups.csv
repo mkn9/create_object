@@ -1,0 +1,3 @@
+group_id,group_size,start_percent,stop_percent,center_north,center_east,center_down,spread_std,mean_travel_distance,travel_std,category
+1,4,0,60,200.0,100.0,0.0,50.0,150.0,20.0,2
+2,5,40,100,300.0,-100.0,10.0,60.0,180.0,25.0,3

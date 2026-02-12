@@ -1,0 +1,10 @@
+Spatial Group Simulation Summary
+============================================================
+
+total_groups: 4
+total_objects: 12
+num_time_points: 50
+objects_per_group: {1: 3, 2: 4, 3: 3, 4: 2}
+categories: {'category_1': 7, 'category_2': 3, 'category_3': 2}
+travel_distance_stats: {'min': 48.90164056081244, 'max': 92.1842388512642, 'mean': 67.82453910497165, 'std': 12.944561261680315}
+total_trajectory_points: 344
