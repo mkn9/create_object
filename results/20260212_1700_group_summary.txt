@@ -1,0 +1,24 @@
+Group Scheduler Summary
+============================================================
+
+Input file: data/sample_groups.csv
+Generated: 2026-02-12 17:00:47
+
+Group Data:
+------------------------------------------------------------
+ group_id  group_size  start_percent  stop_percent
+        1          20              0            25
+        2          15             20            50
+        3          18             45            75
+        4          12             70            95
+        5          10             90           100
+
+Summary Statistics:
+------------------------------------------------------------
+num_groups: 5
+total_participants: 75
+earliest_start: 0.0
+latest_stop: 100.0
+avg_group_size: 15.0
+min_group_size: 10
+max_group_size: 20

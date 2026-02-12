@@ -1,0 +1,7 @@
+group_id,group_size,start_percent,stop_percent
+1,20,0,25
+2,15,20,50
+3,18,45,75
+4,12,70,95
+5,10,90,100
+

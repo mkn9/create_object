@@ -1,0 +1,48 @@
+# Create Object Project Configuration
+# EC2 Instance Configuration
+
+# EC2 Instance Details
+ec2:
+  instance_id: "TBD"  # Fill in after EC2 setup
+  public_ip: "TBD"    # Fill in after EC2 setup
+  ssh_user: "ubuntu"  # Default for Ubuntu AMI
+  
+# SSH Configuration
+ssh:
+  key_path: "/Users/mike/keys/AutoGenKeyPair.pem"
+  port: 22
+  timeout: 30
+  retry_attempts: 3
+
+# Project Configuration
+project:
+  name: "create_object"
+  remote_path: "/home/ubuntu/create_object"
+  local_path: "/Users/mike/Dropbox/Code/repos/create_object"
+  
+# Python Dependencies (to be installed on EC2)
+python_dependencies:
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pytest
+  - pytest-cov
+  - pyyaml
+
+# System Dependencies (to be installed on EC2)
+system_dependencies:
+  - git
+  - curl
+  - wget
+  - jq
+
+# Connection Settings
+connection:
+  test_command: "echo 'Connection successful'; uname -a"
+  setup_commands:
+    - "sudo apt update"
+    - "sudo apt install -y python3-pip"
+    - "pip3 install --upgrade pip"
+
