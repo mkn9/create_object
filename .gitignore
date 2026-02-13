@@ -75,3 +75,6 @@ data/large_datasets/
 # Results (timestamp-named files are tracked)
 # Add specific large result files here if needed
 
+# Trajectories (generated WORLD_ENTITY files)
+trajectories/
+
